@@ -2,7 +2,7 @@
 
 internal class ProcessBusinessLogic
 {
-    public event Action ProcessCompleted;
+    public event Action? ProcessCompleted;
 
     // summary:
     // Purpose: Starts the process and triggers event.
